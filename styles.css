@@ -1,0 +1,247 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    } 
+     
+     body{
+         background-image: url(./images/spaghetti-puttanesca_1-1ce4e81.jpg);
+         background-repeat: repeat;
+         background-size: 270px;
+         
+     }
+
+nav{ 
+    width: 100%;
+    height: 60px;
+    background-color: rgba(240, 131, 98, 0.986);
+}
+
+
+ nav img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul {
+    float: left;
+
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+  
+
+nav ul li a{ 
+     display: block;
+    font-family: arial; 
+    color: brown;
+    font-size: 14px;
+    padding: 21px 14px;
+    text-decoration: none;
+
+}
+
+
+nav ul li ul { 
+    display: none; 
+    position: absolute;
+    background-color: rgba(240, 131, 98, 0.986);
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px ;
+}
+
+nav ul li:hover ul { 
+    display: block; 
+   
+}
+
+nav ul li ul li a  { 
+    padding: 12px 14px;  
+}
+
+nav ul li ul li a:hover { 
+    background-color: #f3f3f3; 
+
+}
+
+div{
+    color: white;
+    font-family: 'Architects Daughter';
+    padding: 100px;
+    border-radius: 10px;
+}
+
+.p{
+    font-size: 22px;
+    color: white;
+    background-color: rgb(218, 167, 101);
+    margin: 100px;
+    
+}
+
+.dishes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pasta{
+    background-color: rgba(240, 131, 98, 0.938);
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.image{
+    width: 90px;
+    margin-top: 10px;
+}
+
+.pizza{
+    background-color: rgba(240, 131, 98, 0.938);
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.image1{
+    width: 90px;
+    margin-top: 10px;
+}
+
+.chickenburger{
+    background-color: rgba(240, 131, 98, 0.938);
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.image2{
+    width: 90px;
+    margin-top: 10px;
+    height: 90px;
+}
+
+.stake{
+    background-color: rgba(240, 131, 98, 0.938);
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.p1{
+    font-size: 22px;
+    color: white;
+    background-color: rgb(218, 167, 101);
+    margin: 100px;
+}
+
+.drinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image3{
+    width: 90px;
+    margin-top: 10px;
+    height: 90px;
+}
+
+.electriclemonade{
+    background-color: rgba(240, 131, 98, 0.938);
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.strawberrysmoothie{
+    background-color: rgba(240, 131, 98, 0.938);
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.lemonade{
+    background-color: rgba(240, 131, 98, 0.938);
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.mangosmoothie{
+    background-color: rgba(240, 131, 98, 0.938);
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.p3{
+    font-size: 22px;
+    color: white;
+   text-align: center;
+   background-color: rgba(240, 131, 98, 0.938);
+ 
+}
+
+.desserts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+.oreocake{
+    background-color: rgba(240, 131, 98, 0.938);
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.charamelcheesecake{
+    background-color: rgba(240, 131, 98, 0.938);
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.applecrumble{
+    background-color: rgba(240, 131, 98, 0.938);
+    width: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.slider{
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background: url(./images/SPY_8547-Copy-300x200.jpg);
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes example {
+    0%   {background: url(./images/SPY_8547-Copy-300x200.jpg); left:0px; top:0px;}
+    25%  {background: url(./images/SPY_9563-Copy-300x200.jpg); left:200px; top:0px;}
+    50%  {background: url(./images/DSC3080-300x187.jpg); left:200px; top:200px;}
+    75%  {background: url(./images/DblChocFudgyBrownie-CLEAR-150x150.jpg); left:0px; top:200px;}
+    100% {background: url(./images/SPY_8547-Copy-300x200.jpg);left:0px; top:0px;}
+  }
